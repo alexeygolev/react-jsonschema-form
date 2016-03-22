@@ -165,6 +165,8 @@ Here's a list of supported alternative widgets for different JSONSchema data typ
   * `select`: a select box with `true` and `false` as options;
   * by default, a checkbox is used
 
+> Note: If an `enumNames` property is provided by the schema, its values will be used to populate the widget labels (by default, they're `"true"` and `"false"`).
+
 #### For `string` fields
 
   * `textarea`: a `textarea` element;
